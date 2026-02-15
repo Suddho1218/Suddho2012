@@ -1,0 +1,16 @@
+p = int(input("Enter principal:"))
+r =int(input("Enter rate:"))
+si1=(p*r*1)/100
+a1=si1+p
+si2=(a1*r*1)/100
+a2=si2+a1
+si3=(a2*r*1)/100
+a3=si3+a2
+ci=a3-p
+print("Interest for the first yesr = ₹",si1)
+print("Amoutn at the end of the first year = ₹",a1)
+print("Interest for the second year = ₹",si2)
+print("Amount at the end of the second year = ₹",a2)
+print("Interest for the thirfd year = ₹",si3)
+print("Amoutn at the end of the second year = ₹",a3)
+print("Compound interst = ₹",ci)
